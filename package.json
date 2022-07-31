@@ -1,0 +1,23 @@
+{
+  "name": "koishi-plugin-answer-book",
+  "description": "A koishi plugin of the Book Of Answers",
+  "private": false,
+  "author": "Mahoo12138 <mahoo12138@qq.com>",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.8.1"
+  }
+}
