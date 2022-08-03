@@ -3,13 +3,21 @@
   "description": "A koishi plugin of the Book Of Answers",
   "private": false,
   "author": "Mahoo12138 <mahoo12138@qq.com>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahoo12138/koishi-plugin-answer-book.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mahoo12138/koishi-plugin-answer-book/issues"
+  },
   "license": "MIT",
   "scripts": {},
   "keywords": [
@@ -18,6 +26,6 @@
     "plugin"
   ],
   "peerDependencies": {
-    "koishi": "^4.8.1"
+    "koishi": "^4.0.0"
   }
 }
