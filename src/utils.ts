@@ -13,7 +13,7 @@ const string2Hash = (str: string) => {
     hash = ((hash << 5) - hash) + chr;
     hash |= 0;
   }
-  return hash;
+  return hash > 0 ? hash : -hash;
 };
 
 export {randomIdFormQuestion}
